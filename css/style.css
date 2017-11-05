@@ -1,0 +1,21 @@
+* {
+    box-sizing: border-box;
+}
+.social-icon {
+    display: inline-block;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #004eff;
+    font-size: 2em;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    transition: all 0.2s ease-out;
+}
+
+.social-icon:hover {
+    border: 1px solid #004eff;
+    background-color: #fff;
+    color: #004eff;
+}
